@@ -26,10 +26,16 @@ body{
     padding: 1rem;
     box-sizing: border-box;
     font-size: 20px;
+    background: #00000025;
+    box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
 }
 
 .logo-loja{
     width: 200px;
+}
+
+.header-items-left img:hover{
+    cursor: pointer;
 }
 
 .header-items-right {
@@ -42,29 +48,69 @@ body{
     list-style: none;
     float: left;
     cursor: pointer;
-    transition: 200ms ease-in-out;
 }
 
 .header-items-right ul li a:hover{
     color: var(--cor-terceira);
-    transition: 200ms ease-in-out;
-}
-
-.header-items-right img:hover{
-    transform: scale(1);
-    fill: var(--cor-terceira);
+    transition: 300ms ease-in-out;
 }
 
 .header-items-right ul li a{
     text-decoration: none;
     color: white;
+    transition: 300ms ease-in-out;
 }
 
 .header :not(:last-child){
     margin-right: 1rem;
 }
 
-.header-items-right img{
+.header-items-right a img{
     cursor: pointer;
     height: 30px;
 }
+
+.top-info{
+    background-image: url(../img/background.png);
+    background-position: center center;
+    height: 870px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 160px;
+    color: white;
+}
+
+.welcome h2{
+    font-size: 1rem;
+    letter-spacing: 34px;
+    margin-bottom: -40px;
+    margin-left: 40px;
+}
+
+.welcome h1{
+    font-size: 8rem;
+    margin-bottom: -20px;
+    color: var(--cor-primeira);
+}
+
+.welcome p{
+    margin-bottom: 45px;
+}
+
+.read-more{
+    width: 200px;
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(357deg,  rgb(133, 96, 18) 0%, rgba(235,171,34,1) 100%);
+    border: none;
+    border-radius: 10px;
+    height: 80px;
+}
+
