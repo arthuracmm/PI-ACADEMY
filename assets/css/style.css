@@ -1,4 +1,70 @@
+:root{
+    --cor-primeira: #C0963B;
+    --cor-segunda: #997F48;
+    --cor-terceira: #EBAB22;
+    --cor-quarta: #6B5F45;
+    --cor-quinta: #413D34;
+    --cor-sexta: #33302A;
+}
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+body{
+    background-color: var(--cor-sexta);
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.logo-loja{
+    width: 200px;
+}
+
+.header-items-right {
+    display: flex;
+}
+
+.header-items-right ul li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.header-items-right ul li a:hover{
+    color: var(--cor-terceira);
+    transition: 200ms ease-in-out;
+}
+
+.header-items-right img:hover{
+    transform: scale(1);
+    fill: var(--cor-terceira);
+}
+
+.header-items-right ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header :not(:last-child){
+    margin-right: 1rem;
+}
+
+.header-items-right img{
+    cursor: pointer;
+    height: 30px;
 }
