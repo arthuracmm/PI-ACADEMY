@@ -26,7 +26,7 @@ body{
     padding: 1rem;
     box-sizing: border-box;
     font-size: 20px;
-    background: #00000025;
+    background: #00000059;
     box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.75);
 }
 
@@ -85,32 +85,119 @@ body{
     margin: auto;
     margin-top: 160px;
     color: white;
+    cursor: default;
 }
 
 .welcome h2{
     font-size: 1rem;
-    letter-spacing: 34px;
+    letter-spacing: 36px;
     margin-bottom: -40px;
     margin-left: 40px;
+    font-weight: 100;
 }
 
 .welcome h1{
     font-size: 8rem;
     margin-bottom: -20px;
-    color: var(--cor-primeira);
+    color: var(--cor-terceira );
 }
 
 .welcome p{
     margin-bottom: 45px;
+    font-weight: 100;
 }
 
 .read-more{
     width: 200px;
     font-size: 30px;
     color: white;
-    background: linear-gradient(357deg,  rgb(133, 96, 18) 0%, rgba(235,171,34,1) 100%);
+    background: var(--cor-terceira);
     border: none;
     border-radius: 10px;
     height: 80px;
+    cursor: pointer;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top{
+    display: flex;
+    color: var(--cor-quinta);
+    font-size: 20px;
+    width: 100%;
+    justify-content: space-between;
+    height: 200px;
+    background: var(--cor-primeira);
+    box-sizing: border-box;
+    padding: 4rem;
+    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.38);
+}
+
+.footer-top-items{
+    display: flex;
+    align-items: center;
+    line-height: 35px;
+    cursor: default;
+}
+
+.footer-top-items i{
+    font-size: 4rem;
+    margin-right: 10px;
+    cursor: default;
+    transition: 200ms ease-in-out;
+}
+
+.footer-top-items i:hover{
+    transform: scale(1.1);
+    transition: 200ms ease-in-out;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #1f1f1f;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+.footer-bottom-one{
+    display: flex;
+    margin-bottom: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom hr{
+    margin-top: -20px;
+}
+
+.footer-bottom-one img{
+    height: 100px;
+    margin-top: 20px;
+}
+
+.footer-bottom-two{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 50px;
+}
+
+.footer-bottom-two img{
+    height: 23px;
+    margin-left: 10px;
+}
+
+.footer-socials{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+}
