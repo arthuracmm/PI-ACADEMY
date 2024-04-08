@@ -2,7 +2,7 @@
     --cor-primeira: #C0963B;
     --cor-segunda: #997F48;
     --cor-terceira: #EBAB22;
-    --cor-quarta: #6B5F45;
+    --cor-quarta: #F2F2F2;
     --cor-quinta: #413D34;
     --cor-sexta: #de55ad;
     --cor-setima: #7c1759;
@@ -107,7 +107,7 @@ body{
 
 .welcome p{
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 200;
     text-transform: uppercase;
     margin-top: 10px;
     border-right: 2px solid rgba(255, 255, 255, .75);
@@ -153,11 +153,11 @@ body{
 }
 
 .programs{
-    background: linear-gradient(133deg, rgba(235,171,34,1) 5%, rgba(222,85,173,1) 97%);;
+    background: linear-gradient(133deg, rgba(235,171,34,1) 5%, rgba(222,85,173,1) 97%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1500px;
+    width: 100%;
     box-sizing: border-box;
     padding: 20px;
     font-size: 30px;
@@ -222,6 +222,80 @@ body{
     transition: 200ms ;
 }
 
+.personal-trainer{
+    background: var(--cor-quarta);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-trainer-content{
+    display: flex;
+    color: #000;
+    max-width: 1500px;
+    box-sizing: border-box;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-trainer-content img{
+    height: 500px;
+    margin-bottom: -20px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.personal-trainer-right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 500px;
+}
+
+.personal-trainer-right h3{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.personal-trainer-right p{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.personal-trainer-right ul li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.personal-trainer-right ul li span{
+    color: var(--cor-sexta);
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.personal-trainer-right button{
+    width:200px;
+    font-size: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background: var(--cor-sexta);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+}
+
+.personal-trainer-right button:hover{
+    background: var(--cor-setima);
+    transition: 300ms ease-in-out;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -229,15 +303,15 @@ body{
 
 .footer-top{
     display: flex;
-    color: var(--cor-setima);
+    color: var(--cor-quarta);
     font-size: 20px;
     width: 100%;
     justify-content: space-between;
     height: 200px;
-    background: var(--cor-terceira);
+    background: linear-gradient(133deg, rgba(235,171,34,1) 5%, rgba(222,85,173,1) 97%);
     box-sizing: border-box;
     padding: 4rem;
-    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.38);
+    box-shadow: 0px 5px 9px 0px rgb(0, 0, 0);
 }
 
 .footer-top-items{
@@ -252,7 +326,7 @@ body{
     margin-right: 10px;
     cursor: default;
     transition: 200ms ease-in-out;
-    color: var(--cor-quinta);
+    color: var(--cor-quarta);
 }
 
 .footer-top-items i:hover{
@@ -264,7 +338,11 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #1f1f1f;
+    background-image: url(../img/background.png);
+    background-position: bottom center;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: #413D34;
     width: 100%;
     box-sizing: border-box;
     padding-bottom: 10px;
