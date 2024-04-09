@@ -56,6 +56,7 @@ Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em c
 
 Link do site hospedado: https://primegym.netlify.app/
 
-![image](https://github.com/arthuracmm/PI-ACADEMY/assets/130599250/12bc5eba-3bfd-4a83-b1c0-9663eba287d9)
-![image](https://github.com/arthuracmm/PI-ACADEMY/assets/130599250/32c9f5cd-9329-4089-b97c-e8007d9c4fa2)
+![primegym netlify app_](https://github.com/arthuracmm/PI-ACADEMY/assets/130599250/f5d9c15d-1b8d-44f5-9e42-19d0fba561a9)
+
+
 
