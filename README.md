@@ -1,3 +1,5 @@
+![logop](https://github.com/arthuracmm/PI-ACADEMY/assets/130599250/2ec511f7-86ec-437b-b329-963183b95363)
+
 # Prime Gym - Site de Academia
 
 Este é o repositório do código fonte para o site da academia Prime Gym. O site foi desenvolvido como parte de um projeto acadêmico para demonstrar habilidades de desenvolvimento web.
