@@ -1,4 +1,8 @@
-![logop](https://github.com/arthuracmm/PI-ACADEMY/assets/130599250/2ec511f7-86ec-437b-b329-963183b95363)
+<div align="center" style="margin-bottom: 20px">
+
+<img src ="https://github.com/arthuracmm/PI-ACADEMY/assets/130599250/2ec511f7-86ec-437b-b329-963183b95363" width= "250px"/>
+
+</div>
 
 # Prime Gym - Site de Academia
 
